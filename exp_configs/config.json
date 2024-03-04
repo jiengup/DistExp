@@ -1,0 +1,41 @@
+{
+    "exp_name": "basic_exp",
+    "storage_node_ip": [
+        "21.0.81.75",
+        "21.0.81.76",
+        "21.0.81.103",
+        "21.0.81.79",
+        "21.0.81.89",
+        "21.0.81.69",
+        "21.0.81.108",
+        "21.0.81.26",
+        "21.0.81.56",
+        "21.0.81.96",
+        "21.0.81.68",
+        "21.0.81.71"
+    ],
+    "trace_files": [
+        "/mnt/nfs/trace/cbs_trace1/atc_2020_trace/trace_ori/volume_trace/2982",
+        "/data/trace/2018-10-01-00"
+    ],
+    "client_ip": [
+        "21.0.81.119"
+    ],
+    "mds_ip": "21.0.81.119",
+    "storage_node_base_port": 54000,
+    "client_base_port": 55000,
+    "mds_port": 60000,
+    "client_io_depth": 32,
+    "client_traffic": 824288000,
+    "msg_concurency": 0,
+    "write_to_disk": 0,
+    "cache_size_GB": 50,
+    "ec_size_GB": 1800,
+
+    "always_rep": false,
+    "use_hotness": true,
+    "balance_window": 60,
+    "need_balance": false,
+    "max_ec_ratio": 0.8,
+    "repair_bandwidth_KB": 25600
+}

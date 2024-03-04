@@ -1,0 +1,31 @@
+# IDE configs
+.vscode
+
+protobuf-3.20.0
+llbc
+build
+log
+rpc/bin
+rpc/pb/*.pb.cc
+rpc/pb/*.pb.h
+log/client/client.230715.log
+
+# unzip files
+thirdparty/Jerasure-master
+thirdparty/gf-complete-master
+thirdparty/spdlog-master
+
+# redis
+redis
+dump.rdb
+
+# python
+*pycache*
+
+# misc
+distComp
+logs
+
+#benchmark
+benchmark/benchmark
+benchmark/*.csv

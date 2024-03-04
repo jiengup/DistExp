@@ -1,0 +1,13 @@
+{
+    "exp_interval_between_query": 5,
+    "health_report_interval": 3,
+    "health_check_interval": 5,
+    "health_miss_toleration": 2,
+    "ack_wait_interval": 5,
+    "ack_timeout": 300,
+    "redis_host": "master",
+    "redis_port": 6379,
+    "redis_pass": "repcacheec",
+    "redis_db": 0,
+    "worker_name": ""
+}

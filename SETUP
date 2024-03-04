@@ -1,0 +1,12 @@
+# All Workers(Storage Nodes)
+
+1. clone `exp-setup` branch
+2. make sure you have `exp_utils` directory
+3. install python dependency
+
+```bash
+cd exp_utils
+pip install -r requirements.txt # or pip install psutil redis
+```
+
+4. insert manager's public key in `/root/.ssh/authorized_keys` in order to allow ssh and scp
